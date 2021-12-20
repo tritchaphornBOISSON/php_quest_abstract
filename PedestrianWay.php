@@ -3,7 +3,7 @@
 final class PedestrianWay extends HighWay
 {
 
-    public function __construct(int $nbLane, int $maxSpeed)
+    public function __construct(int $nbLane = 1, int $maxSpeed = 10)
     {
         parent::__construct($nbLane, $maxSpeed);
     }
